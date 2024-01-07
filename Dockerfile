@@ -1,5 +1,5 @@
 # Use a lightweight image for the final application deployment
-FROM adoptopenjdk/openjdk17:alpine-jre
+FROM openjdk:17-jdk-alpine
 
 # Set the working directory inside the container
 WORKDIR /usr/app
